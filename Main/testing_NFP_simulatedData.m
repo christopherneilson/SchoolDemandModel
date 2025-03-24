@@ -36,8 +36,8 @@
 %% Paths
 
 % 1. Data
-    pathData = '/Users/ignaciolepe/ConsiliumBots Dropbox/Ignacio Lepe/NFP-FakeData/'; % Path to the real data
-    pathFakeData = '/Users/ignaciolepe/Documents/GitHub/NFP-FakeData/Data/'; % Path to the simulated data
+    pathData = '/Users/ignaciolepe/ConsiliumBots Dropbox/Ignacio Lepe/SchoolDemandModel/'; % Path to the real data
+    pathFakeData = 'C:/Users/can7/Documents/GitHub/SchoolDemandModel/Data/'; % Path to the simulated data
 
 % 2. Codes
     % This code automatically locates the root directory
@@ -129,12 +129,12 @@
 
 %1. Set optimization options for different solvers
     opts1 = optimset('Display','iter','FinDiffType','central','MaxFunEvals',1000,...
-              'TolFun',1E-4,'TolX',1E-4); 
+              'TolFun',1E-8,'TolX',1E-8); 
 
     opts2 = optimset('Algorithm', 'interior-point', 'Display','iter', ...
             'GradObj','on','GradConstr','off', ...
             'MaxIter',1000, ...
-            'TolX', 1e-15, 'TolFun', 1e-8, 'TolCon', 1e-8, 'UseParallel', true);
+            'TolX', 1e-15, 'TolFun', 1e-12, 'TolCon', 1e-12, 'UseParallel', true);
 
 %2. Define parameter limits
     % Set lower bound for parameters
