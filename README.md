@@ -6,13 +6,13 @@ This repository contains MATLAB scripts and functions for testing the NFP model 
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/NFP-FakeData.git
+   git clone https://github.com/<your-username>/SchoolDemandModel.git
 
 2. Ensure MATLAB is installed on your system. The repository is tested with MATLAB 2024b but should work with other recent versions.
 
 3. Add the folder to MATLAB’s path:
    ```matlab
-   addpath('/path/to/NFP-FakeData');
+   addpath('/path/to/SchoolDemandModel');
 
 #### **How to Run**
 
