@@ -1,6 +1,8 @@
-# NFP Fake Data Testing Framework
+# Static School Demand Model Simulated Data and Estimation Testing Framework
 
 This repository contains MATLAB scripts and functions for testing the NFP model described in Neilson (2025). The project focuses on simulating and evaluating non-linear market share models using fake data, optimized for debugging and validation.
+The repository has two components, 1) a data simulation component which creates data from the model using predetermined parameters and 2) code to implement the estimation of the model to recover the original parameters used to simulate the data. 
+
 
 ## Setup Instructions
 
